@@ -77,7 +77,7 @@ def get_dominant_colors(
                 break
 
         if not too_close:
-            selected.append(color)
+            selected.append((color[0], color[1], color[2]))
 
     return selected
 
