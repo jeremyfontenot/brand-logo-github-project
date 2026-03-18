@@ -42,7 +42,11 @@ pip install -r requirements.txt
 python scripts\extract_brand_colors.py
 ```
 
-Generated files are written to `assets/outputs/`.
+Generated files are written to `assets/outputs/`:
+
+- `Brand_Color_Guide.md`
+- `Brand_Color_Guide.html`
+- `brand-tokens.css`
 
 ## Source Inputs
 
@@ -72,6 +76,8 @@ These reference visuals are included to document logo treatment across backgroun
 ## Notes
 
 - This repository preserves final assets and a reproducible color analysis workflow.
+- Color extraction is deterministic to avoid unnecessary output diffs between runs.
+- `brand-tokens.css` now uses semantic family + canonical scale naming (50-950 only, e.g., `--brand-neutral-50`, `--brand-blue-700`) for easier design-system use.
 - The visual design process itself was iterative; this repo captures the documented process and final outputs for publication.
 
 ## Publishing to GitHub

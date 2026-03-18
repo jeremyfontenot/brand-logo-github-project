@@ -1,43 +1,32 @@
 :root {
-  --bg-primary: #0F172A;
-  --bg-secondary: #1E293B;
-  --accent-primary: #38BDF8;
-  --accent-secondary: #0EA5E9;
-  --text-primary: #F1F5F9;
-  --text-secondary: #94A3B8;
-  --effect-glow: rgba(56, 189, 248, 0.6);
-  --effect-grid-hex: rgba(56, 189, 248, 0.3);
-
-  --font-primary: "Inter", sans-serif;
-  --font-code: "Roboto Mono", monospace;
-
-  --logo-min-icon-size: 64px;
-  --logo-min-full-size: 120px;
-  --logo-clear-space: 20px;
-}
-
-body {
-  background-color: var(--bg-primary);
-  color: var(--text-primary);
-  font-family: var(--font-primary);
-}
-
-.brand-surface {
-  background: radial-gradient(circle at center, var(--bg-secondary) 0%, var(--bg-primary) 100%);
-}
-
-.button-primary {
-  background-color: var(--accent-secondary);
-  color: #ffffff;
-  border: 0;
-  border-radius: 8px;
-  padding: 10px 16px;
-}
-
-.glow {
-  box-shadow: 0 0 15px var(--effect-glow);
-}
-
-.code, code, pre {
-  font-family: var(--font-code);
+  /* neutral */
+  --brand-neutral-50: #ffffff;
+  --brand-neutral-100: #fefefe;
+  --brand-neutral-200: #ebebeb;
+  --brand-neutral-300: #e9e9e9;
+  --brand-neutral-400: #959595;
+  --brand-neutral-500: #85888d;
+  --brand-neutral-600: #343434;
+  --brand-neutral-700: #0b1722;
+  --brand-neutral-800: #0c121b;
+  --brand-neutral-900: #05090c;
+  --brand-neutral-950: #010101;
+  /* blue */
+  --brand-blue-50: #81a3be;
+  --brand-blue-100: #77848c;
+  --brand-blue-200: #6c849c;
+  --brand-blue-300: #45698b;
+  --brand-blue-400: #485565;
+  --brand-blue-600: #2d5375;
+  --brand-blue-700: #1b364d;
+  --brand-blue-800: #1a3554;
+  --brand-blue-900: #0e344f;
+  --brand-blue-950: #21262a;
+  /* cyan */
+  --brand-cyan-50: #a3c7d3;
+  --brand-cyan-200: #87b7bb;
+  --brand-cyan-400: #1ec9bb;
+  --brand-cyan-600: #1ab3ae;
+  --brand-cyan-800: #196b89;
+  --brand-cyan-950: #1a4b52;
 }
